@@ -1,12 +1,12 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace MSTest2
+namespace MSTest1
 {
     [TestClass]
-    public class UnitTestD
+    public class UnitTests
     {
         [TestMethod]
-        public void TestD1()
+        public void Test1()
         {
         }
     }

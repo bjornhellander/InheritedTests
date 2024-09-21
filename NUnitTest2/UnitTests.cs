@@ -2,15 +2,11 @@ using NUnit.Framework;
 
 namespace NUnitTest2
 {
-    public class UnitTestF
+    public class UnitTests : NUnitTest1.UnitTests
     {
-        [SetUp]
-        public void Setup()
-        {
-        }
 
         [Test]
-        public void TestF1()
+        public void Test2()
         {
             Assert.Pass();
         }

@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 namespace NUnitTest1
 {
-    public class UnitTestE
+    public class UnitTests
     {
         [SetUp]
         public void Setup()
@@ -10,7 +10,7 @@ namespace NUnitTest1
         }
 
         [Test]
-        public void TestE1()
+        public void Test1()
         {
             Assert.Pass();
         }

@@ -2,12 +2,11 @@ using Xunit;
 
 namespace XUnitTest2
 {
-    public class UnitTestB
+    public class UnitTests : XUnitTest1.UnitTests
     {
         [Fact]
-        public void TestB1()
+        public void Test2()
         {
-
         }
     }
 }
